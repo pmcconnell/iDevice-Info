@@ -35,6 +35,16 @@
 		<string>22x29</string>
 		<key>tabBarIconPixels</key>
 		<string>30x30</string>
+		<key>statusBarHeight</key>
+		<string>20 px</string>
+		<key>titleBarHeight</key>
+		<string>44 px</string>
+		<key>tabBarHeight</key>
+		<string>49 px</string>
+		<key>tableWidthPortrait</key>
+		<string>302 px</string>
+		<key>tableWidthLandscape</key>
+		<string>462 px</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -69,6 +79,16 @@
 		<string>44x58</string>
 		<key>tabBarIconPixels</key>
 		<string>60x60</string>
+		<key>statusBarHeight</key>
+		<string>40 px</string>
+		<key>titleBarHeight</key>
+		<string>88 px</string>
+		<key>tabBarHeight</key>
+		<string>98 px</string>
+		<key>tableWidthPortrait</key>
+		<string>604 px</string>
+		<key>tableWidthLandscape</key>
+		<string>924 px</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -103,6 +123,16 @@
 		<string>44x58</string>
 		<key>tabBarIconPixels</key>
 		<string>60x60</string>
+		<key>statusBarHeight</key>
+		<string>40 px</string>
+		<key>titleBarHeight</key>
+		<string>88 px</string>
+		<key>tabBarHeight</key>
+		<string>98 px</string>
+		<key>tableWidthPortrait</key>
+		<string>604 px</string>
+		<key>tableWidthLandscape</key>
+		<string>1100 px</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -137,6 +167,16 @@
 		<string>64x64</string>
 		<key>tabBarIconPixels</key>
 		<string>30x30</string>
+		<key>statusBarHeight</key>
+		<string>20 px</string>
+		<key>titleBarHeight</key>
+		<string>44 px</string>
+		<key>tabBarHeight</key>
+		<string>49 px</string>
+		<key>tableWidthPortrait</key>
+		<string>dynamic</string>
+		<key>tableWidthLandscape</key>
+		<string>dynamic</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -171,6 +211,16 @@
 		<string>128x128</string>
 		<key>tabBarIconPixels</key>
 		<string>60x60</string>
+		<key>statusBarHeight</key>
+		<string>20 px</string>
+		<key>titleBarHeight</key>
+		<string>88 px</string>
+		<key>tabBarHeight</key>
+		<string>98 px</string>
+		<key>tableWidthPortrait</key>
+		<string>dynamic</string>
+		<key>tableWidthLandscape</key>
+		<string>dynamic</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -205,6 +255,16 @@
 		<string>64x64</string>
 		<key>tabBarIconPixels</key>
 		<string>30x30</string>
+		<key>statusBarHeight</key>
+		<string>20 px</string>
+		<key>titleBarHeight</key>
+		<string>44 px</string>
+		<key>tabBarHeight</key>
+		<string>49 px</string>
+		<key>tableWidthPortrait</key>
+		<string>dynamic</string>
+		<key>tableWidthLandscape</key>
+		<string>dynamic</string>
 	</dict>
 </array>
 </plist>

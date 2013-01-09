@@ -34,7 +34,9 @@
 @property (strong, nonatomic) NSString *statusBarHeight;
 @property (strong, nonatomic) NSString *titleBarHeight;
 @property (strong, nonatomic) NSString *tabBarHeight;
-@property (strong, nonatomic) NSString *tableWidth;
+@property (strong, nonatomic) NSString *tableWidthPortrait;
+@property (strong, nonatomic) NSString *tableWidthLandscape;
+
 
 +(Device *)deviceFromDictionary:(NSDictionary *)dict;
 

@@ -1,23 +1,24 @@
 //
-//  IconViewController_iPhone.m
+//  ElementViewController_iPhone.m
 //  iDevice Info
 //
 //  Created by Patrick Mcconnell on 1/9/13.
 //  Copyright (c) 2013 Dogboy Studios. All rights reserved.
 //
 
-#import "IconViewController_iPhone.h"
+#import "ElementViewController_iPhone.h"
 #import "DBSAppDelegate.h"
 #import "DeviceController.h"
-#import "IconCell.h"
+#import "ElementCell.h"
 #import "Device.h"
 
 
-@interface IconViewController_iPhone ()
+@interface ElementViewController_iPhone ()
 @property (strong, nonatomic) DeviceController *deviceController;
 @end
 
-@implementation IconViewController_iPhone
+@implementation ElementViewController_iPhone
+
 
 - (void)viewDidLoad
 {
@@ -41,15 +42,15 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{  
+{
   // Return the number of rows in the section.
-  return [[self.deviceController devices]count];
+   return [[self.deviceController devices]count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-  static NSString *CellIdentifier = @"iconCell";
-  IconCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+  static NSString *CellIdentifier = @"elementCell";
+  ElementCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
   
   Device *currentDevice = [self.deviceController.devices objectAtIndex:indexPath.row];
   
@@ -59,20 +60,13 @@
   
   cell.deviceNameLabel.text =  currentDevice.name;
   cell.deviceInfoLabel.text = currentDevice.info;
-  
-  cell.appIconPixelsLabel.text  = currentDevice.appIconPixels;
-  cell.appIconRadiusLabel.text  = currentDevice.appIconRadius;
-  
-  cell.appStoreIconPixelsLabel.text  = currentDevice.appstoreIconPixels;
-  cell.appStoreIconRadiusLabel.text  = currentDevice.appstoreIconRadius;
-  
-  cell.spotlightIconPixelsLabel.text  = currentDevice.spotlightIconPixels;
-  cell.spotlightIconRadiusLabel.text  = currentDevice.spotlightIconRadius;
-  
-  cell.documentIconPixelsLabel.text  = currentDevice.documentIconPixels;
 
-  cell.tabBarIconPixelsLabel.text  = currentDevice.tabBarIconPixels;
-    
+  cell.statusBarHeightLabel.text  = currentDevice.statusBarHeight;
+  cell.titleBarHeightLabel.text   = currentDevice.titleBarHeight;
+  cell.tabBarHeightLabel.text     = currentDevice.tabBarHeight;
+  
+  cell.groupedTableWidthPortraitLabel.text   = currentDevice.tableWidthPortrait;
+  cell.groupedTableWidthLandscapeLabel.text  = currentDevice.tableWidthLandscape;
   return cell;
 }
 

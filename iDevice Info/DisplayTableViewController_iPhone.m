@@ -34,6 +34,15 @@
 
 #pragma mark - Table view data source
 
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+  if (UIDeviceOrientationIsLandscape([[UIDevice currentDevice]orientation])) {
+    return 146.0;
+  } else {
+    return 241.0;
+  }
+}
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
   // Return the number of sections.
@@ -48,8 +57,15 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-  static NSString *CellIdentifier = @"displayCell";
-  DisplayCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+  static NSString *cellIdentifier = nil;
+  
+  if (UIDeviceOrientationIsLandscape([[UIDevice currentDevice]orientation])) {
+    cellIdentifier = @"displayCellLandscape";
+  } else {
+    cellIdentifier = @"displayCell";
+  }
+  
+  DisplayCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
   
   Device *currentDevice = [self.deviceController.devices objectAtIndex:indexPath.row];
   
@@ -119,6 +135,15 @@
    // Pass the selected object to the new view controller.
    [self.navigationController pushViewController:detailViewController animated:YES];
    */
+}
+
+-(void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation
+{
+  [self tableView:self.tableView heightForRowAtIndexPath:nil];
+  [self.tableView beginUpdates];
+  [self.tableView reloadData];
+  [self.tableView endUpdates];
+
 }
 
 @end
