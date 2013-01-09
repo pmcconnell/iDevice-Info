@@ -35,6 +35,16 @@
 
 #pragma mark - Table view data source
 
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+  if (UIDeviceOrientationIsLandscape([[UIDevice currentDevice]orientation])) {
+    return 211.0;
+  } else {
+    return 301.0 ;
+  }
+}
+
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
   // Return the number of sections.
@@ -49,8 +59,15 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-  static NSString *CellIdentifier = @"elementCell";
-  ElementCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+  static NSString *cellIdentifier = nil;
+  
+  if (UIDeviceOrientationIsLandscape([[UIDevice currentDevice]orientation])) {
+    cellIdentifier = @"elementCellLandscape";
+  } else {
+    cellIdentifier = @"elementCell";
+  }
+  
+  ElementCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
   
   Device *currentDevice = [self.deviceController.devices objectAtIndex:indexPath.row];
   
@@ -121,5 +138,11 @@
    [self.navigationController pushViewController:detailViewController animated:YES];
    */
 }
+
+-(void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation
+{
+  [self.tableView reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationAutomatic];
+}
+
 
 @end

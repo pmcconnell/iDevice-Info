@@ -139,11 +139,7 @@
 
 -(void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation
 {
-  [self tableView:self.tableView heightForRowAtIndexPath:nil];
-  [self.tableView beginUpdates];
-  [self.tableView reloadData];
-  [self.tableView endUpdates];
-
+  [self.tableView reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationAutomatic];
 }
 
 @end
