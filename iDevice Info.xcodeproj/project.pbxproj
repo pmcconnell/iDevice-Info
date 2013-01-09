@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A501604169DB9A80034987E /* DeviceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A501603169DB9A80034987E /* DeviceController.m */; };
+		8A50160D169DBC8E0034987E /* devices.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A50160C169DBC8E0034987E /* devices.plist */; };
+		8A50160F169DC6860034987E /* Storyboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A50160E169DC6860034987E /* Storyboard_iPhone.storyboard */; };
 		8AB9F69C169DB56B009BEBA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB9F69B169DB56B009BEBA7 /* UIKit.framework */; };
 		8AB9F69E169DB56B009BEBA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB9F69D169DB56B009BEBA7 /* Foundation.framework */; };
 		8AB9F6A0169DB56B009BEBA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB9F69F169DB56B009BEBA7 /* CoreGraphics.framework */; };
@@ -20,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A501602169DB9A80034987E /* DeviceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceController.h; sourceTree = "<group>"; };
+		8A501603169DB9A80034987E /* DeviceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceController.m; sourceTree = "<group>"; };
+		8A50160C169DBC8E0034987E /* devices.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = devices.plist; path = "iDevice Info/devices.plist"; sourceTree = "<group>"; };
+		8A50160E169DC6860034987E /* Storyboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard_iPhone.storyboard; path = "iDevice Info/Storyboard_iPhone.storyboard"; sourceTree = "<group>"; };
 		8AB9F697169DB56B009BEBA7 /* iDevice Info.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iDevice Info.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB9F69B169DB56B009BEBA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8AB9F69D169DB56B009BEBA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -86,6 +93,8 @@
 				8AB9F6AB169DB56B009BEBA7 /* DBSAppDelegate.m */,
 				8AB9F6B9169DB5D0009BEBA7 /* Device.h */,
 				8AB9F6BA169DB5D0009BEBA7 /* Device.m */,
+				8A501602169DB9A80034987E /* DeviceController.h */,
+				8A501603169DB9A80034987E /* DeviceController.m */,
 				8AB9F6A2169DB56B009BEBA7 /* Supporting Files */,
 			);
 			path = "iDevice Info";
@@ -108,6 +117,8 @@
 		8AB9F6B8169DB58F009BEBA7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8A50160C169DBC8E0034987E /* devices.plist */,
+				8A50160E169DC6860034987E /* Storyboard_iPhone.storyboard */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -168,6 +179,8 @@
 				8AB9F6AE169DB56B009BEBA7 /* Default.png in Resources */,
 				8AB9F6B0169DB56B009BEBA7 /* Default@2x.png in Resources */,
 				8AB9F6B2169DB56B009BEBA7 /* Default-568h@2x.png in Resources */,
+				8A50160D169DBC8E0034987E /* devices.plist in Resources */,
+				8A50160F169DC6860034987E /* Storyboard_iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +194,7 @@
 				8AB9F6A8169DB56B009BEBA7 /* main.m in Sources */,
 				8AB9F6AC169DB56B009BEBA7 /* DBSAppDelegate.m in Sources */,
 				8AB9F6BB169DB5D0009BEBA7 /* Device.m in Sources */,
+				8A501604169DB9A80034987E /* DeviceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +305,7 @@
 				8AB9F6B7169DB56B009BEBA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

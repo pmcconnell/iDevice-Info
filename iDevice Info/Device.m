@@ -10,4 +10,19 @@
 
 @implementation Device
 
+
++(Device *)deviceFromDictionary:(NSDictionary *)dict
+{
+  Device *device = [[Device alloc]init];
+  
+  NSEnumerator *enumerator = [dict keyEnumerator];
+  NSString *key;
+  
+  while ((key = [enumerator nextObject])) {    
+    [device setValuesForKeysWithDictionary:dict];
+  }
+  return device;
+}
+
+
 @end

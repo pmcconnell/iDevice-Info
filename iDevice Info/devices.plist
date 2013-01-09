@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>iPhone &amp; iPod</string>
+		<key>info</key>
+		<string>1st, 2nd &amp; 3rd Generation</string>
+		<key>portraitResolution</key>
+		<string>320x480 px</string>
+		<key>landscapeResolution</key>
+		<string>480x320 px</string>
+		<key>ppi</key>
+		<string>163</string>
+		<key>colorMode</key>
+		<string>8bit RGB</string>
+		<key>colorTemperature</key>
+		<string>Warm</string>
+		<key>appIconPixels</key>
+		<string>57x57</string>
+		<key>appIconRadius</key>
+		<string>10 px</string>
+		<key>appstoreIconPixels</key>
+		<string>512x512</string>
+		<key>appstoreIconRadius</key>
+		<string>90 px</string>
+		<key>spotlightIconPixels</key>
+		<string>29x29</string>
+		<key>spotlightIconRadius</key>
+		<string>5 px</string>
+		<key>documentIconPixels</key>
+		<string>22x29</string>
+		<key>tabBarIconPixels</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>iPhone 4/4s</string>
+		<key>info</key>
+		<string>Retina Display iPhones</string>
+		<key>portraitResolution</key>
+		<string>690x960</string>
+		<key>landscapeResolution</key>
+		<string>960x640</string>
+		<key>ppi</key>
+		<string>326</string>
+		<key>colorMode</key>
+		<string>8bit RGB</string>
+		<key>colorTemperature</key>
+		<string>Cool</string>
+		<key>appIconPixels</key>
+		<string>114x114</string>
+		<key>appIconRadius</key>
+		<string>20 px</string>
+		<key>appstoreIconPixels</key>
+		<string>1024x1024</string>
+		<key>appstoreIconRadius</key>
+		<string>180 px</string>
+		<key>spotlightIconPixels</key>
+		<string>58x58</string>
+		<key>spotlightIconRadius</key>
+		<string>10 px</string>
+		<key>documentIconPixels</key>
+		<string>44x58</string>
+		<key>tabBarIconPixels</key>
+		<string>60x60</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>iPhone 5</string>
+		<key>info</key>
+		<string>4&quot; Retina Display iPhone</string>
+		<key>portraitResolution</key>
+		<string>690x1136</string>
+		<key>landscapeResolution</key>
+		<string>1136x640</string>
+		<key>ppi</key>
+		<string>326</string>
+		<key>colorMode</key>
+		<string>8bit RGB</string>
+		<key>colorTemperature</key>
+		<string>Warm</string>
+		<key>appIconPixels</key>
+		<string>114x114</string>
+		<key>appIconRadius</key>
+		<string>20 px</string>
+		<key>appstoreIconPixels</key>
+		<string>1024x1024</string>
+		<key>appstoreIconRadius</key>
+		<string>180 px</string>
+		<key>spotlightIconPixels</key>
+		<string>58x58</string>
+		<key>spotlightIconRadius</key>
+		<string>10 px</string>
+		<key>documentIconPixels</key>
+		<string>44x58</string>
+		<key>tabBarIconPixels</key>
+		<string>60x60</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>iPad</string>
+		<key>info</key>
+		<string>1st &amp; 2nd Generation</string>
+		<key>portraitResolution</key>
+		<string>768x1024 px</string>
+		<key>landscapeResolution</key>
+		<string>1024x768 px</string>
+		<key>ppi</key>
+		<string>132</string>
+		<key>colorMode</key>
+		<string>8bit RGB</string>
+		<key>colorTemperature</key>
+		<string>Warm</string>
+		<key>appIconPixels</key>
+		<string>72x72</string>
+		<key>appIconRadius</key>
+		<string>12 px</string>
+		<key>appstoreIconPixels</key>
+		<string>512x512</string>
+		<key>appstoreIconRadius</key>
+		<string>90 px</string>
+		<key>spotlightIconPixels</key>
+		<string>50x50</string>
+		<key>spotlightIconRadius</key>
+		<string>9 px</string>
+		<key>documentIconPixels</key>
+		<string>64x64</string>
+		<key>tabBarIconPixels</key>
+		<string>30x30</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>iPad Retina</string>
+		<key>info</key>
+		<string>iPad3 &amp; iPad4</string>
+		<key>portraitResolution</key>
+		<string>1536x2048 px</string>
+		<key>landscapeResolution</key>
+		<string>2048x1536 px</string>
+		<key>ppi</key>
+		<string>264</string>
+		<key>colorMode</key>
+		<string>8bit RGB</string>
+		<key>colorTemperature</key>
+		<string>Warm</string>
+		<key>appIconPixels</key>
+		<string>144x144</string>
+		<key>appIconRadius</key>
+		<string>24 px</string>
+		<key>appstoreIconPixels</key>
+		<string>1024x1024</string>
+		<key>appstoreIconRadius</key>
+		<string>180 px</string>
+		<key>spotlightIconPixels</key>
+		<string>100x100</string>
+		<key>spotlightIconRadius</key>
+		<string>20 px</string>
+		<key>documentIconPixels</key>
+		<string>128x128</string>
+		<key>tabBarIconPixels</key>
+		<string>60x60</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>iPad Mini</string>
+		<key>info</key>
+		<string></string>
+		<key>portraitResolution</key>
+		<string>768x1024 px</string>
+		<key>landscapeResolution</key>
+		<string>1024x768 px</string>
+		<key>ppi</key>
+		<string>163</string>
+		<key>colorMode</key>
+		<string>8bit RGB</string>
+		<key>colorTemperature</key>
+		<string>Unknown</string>
+		<key>appIconPixels</key>
+		<string>72x72</string>
+		<key>appIconRadius</key>
+		<string>12 px</string>
+		<key>appstoreIconPixels</key>
+		<string>512x512</string>
+		<key>appstoreIconRadius</key>
+		<string>90 px</string>
+		<key>spotlightIconPixels</key>
+		<string>50x50</string>
+		<key>spotlightIconRadius</key>
+		<string>9 px</string>
+		<key>documentIconPixels</key>
+		<string>64x64</string>
+		<key>tabBarIconPixels</key>
+		<string>30x30</string>
+	</dict>
+</array>
+</plist>
