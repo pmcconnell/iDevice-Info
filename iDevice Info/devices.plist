@@ -7,10 +7,12 @@
 		<string>iPhone &amp; iPod</string>
 		<key>info</key>
 		<string>1st, 2nd &amp; 3rd Generation</string>
+		<key>imageName</key>
+		<string>32-iphone.png</string>
 		<key>portraitResolution</key>
-		<string>320x480 px</string>
+		<string>320x480</string>
 		<key>landscapeResolution</key>
-		<string>480x320 px</string>
+		<string>480x320</string>
 		<key>ppi</key>
 		<string>163</string>
 		<key>colorMode</key>
@@ -32,13 +34,15 @@
 		<key>documentIconPixels</key>
 		<string>22x29</string>
 		<key>tabBarIconPixels</key>
-		<string></string>
+		<string>30x30</string>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>iPhone 4/4s</string>
 		<key>info</key>
 		<string>Retina Display iPhones</string>
+		<key>imageName</key>
+		<string>32-iphone.png</string>
 		<key>portraitResolution</key>
 		<string>690x960</string>
 		<key>landscapeResolution</key>
@@ -71,6 +75,8 @@
 		<string>iPhone 5</string>
 		<key>info</key>
 		<string>4&quot; Retina Display iPhone</string>
+		<key>imageName</key>
+		<string>32-iphone.png</string>
 		<key>portraitResolution</key>
 		<string>690x1136</string>
 		<key>landscapeResolution</key>
@@ -103,10 +109,12 @@
 		<string>iPad</string>
 		<key>info</key>
 		<string>1st &amp; 2nd Generation</string>
+		<key>imageName</key>
+		<string>176-ipad.png</string>
 		<key>portraitResolution</key>
-		<string>768x1024 px</string>
+		<string>768x1024</string>
 		<key>landscapeResolution</key>
-		<string>1024x768 px</string>
+		<string>1024x768</string>
 		<key>ppi</key>
 		<string>132</string>
 		<key>colorMode</key>
@@ -135,10 +143,12 @@
 		<string>iPad Retina</string>
 		<key>info</key>
 		<string>iPad3 &amp; iPad4</string>
+		<key>imageName</key>
+		<string>176-ipad.png</string>
 		<key>portraitResolution</key>
-		<string>1536x2048 px</string>
+		<string>1536x2048</string>
 		<key>landscapeResolution</key>
-		<string>2048x1536 px</string>
+		<string>2048x1536</string>
 		<key>ppi</key>
 		<string>264</string>
 		<key>colorMode</key>
@@ -166,11 +176,13 @@
 		<key>name</key>
 		<string>iPad Mini</string>
 		<key>info</key>
-		<string></string>
+		<string>1st Generation</string>
+		<key>imageName</key>
+		<string>176-ipad.png</string>
 		<key>portraitResolution</key>
-		<string>768x1024 px</string>
+		<string>768x1024</string>
 		<key>landscapeResolution</key>
-		<string>1024x768 px</string>
+		<string>1024x768</string>
 		<key>ppi</key>
 		<string>163</string>
 		<key>colorMode</key>

@@ -10,6 +10,17 @@
 		8A501604169DB9A80034987E /* DeviceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A501603169DB9A80034987E /* DeviceController.m */; };
 		8A50160D169DBC8E0034987E /* devices.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A50160C169DBC8E0034987E /* devices.plist */; };
 		8A50160F169DC6860034987E /* Storyboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A50160E169DC6860034987E /* Storyboard_iPhone.storyboard */; };
+		8A501612169DCC690034987E /* DisplayTableViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A501611169DCC690034987E /* DisplayTableViewController_iPhone.m */; };
+		8A501615169DCDE60034987E /* DisplayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A501614169DCDE60034987E /* DisplayCell.m */; };
+		8A50161B169DD4F30034987E /* 32-iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A501617169DD4F30034987E /* 32-iphone@2x.png */; };
+		8A50161C169DD4F30034987E /* 32-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A501618169DD4F30034987E /* 32-iphone.png */; };
+		8A50161D169DD4F30034987E /* 176-ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A501619169DD4F30034987E /* 176-ipad@2x.png */; };
+		8A50161E169DD4F30034987E /* 176-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A50161A169DD4F30034987E /* 176-ipad.png */; };
+		8A501623169DDA400034987E /* IconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A501622169DDA400034987E /* IconCell.m */; };
+		8A501626169DDA720034987E /* IconViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A501625169DDA720034987E /* IconViewController_iPhone.m */; };
+		8A501629169DE46B0034987E /* 32-iphone-tab.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A501627169DE46B0034987E /* 32-iphone-tab.png */; };
+		8A50162A169DE46B0034987E /* 32-iphone-tab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A501628169DE46B0034987E /* 32-iphone-tab@2x.png */; };
+		8A50162E169DE5D60034987E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A50162D169DE5D60034987E /* Icon.png */; };
 		8AB9F69C169DB56B009BEBA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB9F69B169DB56B009BEBA7 /* UIKit.framework */; };
 		8AB9F69E169DB56B009BEBA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB9F69D169DB56B009BEBA7 /* Foundation.framework */; };
 		8AB9F6A0169DB56B009BEBA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB9F69F169DB56B009BEBA7 /* CoreGraphics.framework */; };
@@ -27,6 +38,22 @@
 		8A501603169DB9A80034987E /* DeviceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceController.m; sourceTree = "<group>"; };
 		8A50160C169DBC8E0034987E /* devices.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = devices.plist; path = "iDevice Info/devices.plist"; sourceTree = "<group>"; };
 		8A50160E169DC6860034987E /* Storyboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard_iPhone.storyboard; path = "iDevice Info/Storyboard_iPhone.storyboard"; sourceTree = "<group>"; };
+		8A501610169DCC680034987E /* DisplayTableViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayTableViewController_iPhone.h; sourceTree = "<group>"; };
+		8A501611169DCC690034987E /* DisplayTableViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayTableViewController_iPhone.m; sourceTree = "<group>"; };
+		8A501613169DCDE60034987E /* DisplayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayCell.h; sourceTree = "<group>"; };
+		8A501614169DCDE60034987E /* DisplayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayCell.m; sourceTree = "<group>"; };
+		8A501617169DD4F30034987E /* 32-iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "32-iphone@2x.png"; path = "iDevice Info/32-iphone@2x.png"; sourceTree = "<group>"; };
+		8A501618169DD4F30034987E /* 32-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "32-iphone.png"; path = "iDevice Info/32-iphone.png"; sourceTree = "<group>"; };
+		8A501619169DD4F30034987E /* 176-ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "176-ipad@2x.png"; path = "iDevice Info/176-ipad@2x.png"; sourceTree = "<group>"; };
+		8A50161A169DD4F30034987E /* 176-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "176-ipad.png"; path = "iDevice Info/176-ipad.png"; sourceTree = "<group>"; };
+		8A501621169DDA400034987E /* IconCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconCell.h; sourceTree = "<group>"; };
+		8A501622169DDA400034987E /* IconCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconCell.m; sourceTree = "<group>"; };
+		8A501624169DDA720034987E /* IconViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconViewController_iPhone.h; sourceTree = "<group>"; };
+		8A501625169DDA720034987E /* IconViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconViewController_iPhone.m; sourceTree = "<group>"; };
+		8A501627169DE46B0034987E /* 32-iphone-tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "32-iphone-tab.png"; path = "iDevice Info/32-iphone-tab.png"; sourceTree = "<group>"; };
+		8A501628169DE46B0034987E /* 32-iphone-tab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "32-iphone-tab@2x.png"; path = "iDevice Info/32-iphone-tab@2x.png"; sourceTree = "<group>"; };
+		8A50162C169DE5AA0034987E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "iDevice Info/Icon@2x.png"; sourceTree = "<group>"; };
+		8A50162D169DE5D60034987E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = "iDevice Info/Icon.png"; sourceTree = "<group>"; };
 		8AB9F697169DB56B009BEBA7 /* iDevice Info.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iDevice Info.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB9F69B169DB56B009BEBA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8AB9F69D169DB56B009BEBA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +85,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A501616169DCDF20034987E /* Display */ = {
+			isa = PBXGroup;
+			children = (
+				8A501613169DCDE60034987E /* DisplayCell.h */,
+				8A501614169DCDE60034987E /* DisplayCell.m */,
+				8A501610169DCC680034987E /* DisplayTableViewController_iPhone.h */,
+				8A501611169DCC690034987E /* DisplayTableViewController_iPhone.m */,
+			);
+			name = Display;
+			sourceTree = "<group>";
+		};
+		8A50161F169DD4F90034987E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8A501617169DD4F30034987E /* 32-iphone@2x.png */,
+				8A501618169DD4F30034987E /* 32-iphone.png */,
+				8A501627169DE46B0034987E /* 32-iphone-tab.png */,
+				8A501628169DE46B0034987E /* 32-iphone-tab@2x.png */,
+				8A501619169DD4F30034987E /* 176-ipad@2x.png */,
+				8A50161A169DD4F30034987E /* 176-ipad.png */,
+				8A50162D169DE5D60034987E /* Icon.png */,
+				8A50162C169DE5AA0034987E /* Icon@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		8A501620169DDA290034987E /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				8A501621169DDA400034987E /* IconCell.h */,
+				8A501622169DDA400034987E /* IconCell.m */,
+				8A501624169DDA720034987E /* IconViewController_iPhone.h */,
+				8A501625169DDA720034987E /* IconViewController_iPhone.m */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
 		8AB9F68C169DB56B009BEBA7 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +159,8 @@
 				8AB9F6BA169DB5D0009BEBA7 /* Device.m */,
 				8A501602169DB9A80034987E /* DeviceController.h */,
 				8A501603169DB9A80034987E /* DeviceController.m */,
+				8A501616169DCDF20034987E /* Display */,
+				8A501620169DDA290034987E /* Icons */,
 				8AB9F6A2169DB56B009BEBA7 /* Supporting Files */,
 			);
 			path = "iDevice Info";
@@ -117,6 +183,7 @@
 		8AB9F6B8169DB58F009BEBA7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8A50161F169DD4F90034987E /* Images */,
 				8A50160C169DBC8E0034987E /* devices.plist */,
 				8A50160E169DC6860034987E /* Storyboard_iPhone.storyboard */,
 			);
@@ -181,6 +248,13 @@
 				8AB9F6B2169DB56B009BEBA7 /* Default-568h@2x.png in Resources */,
 				8A50160D169DBC8E0034987E /* devices.plist in Resources */,
 				8A50160F169DC6860034987E /* Storyboard_iPhone.storyboard in Resources */,
+				8A50161B169DD4F30034987E /* 32-iphone@2x.png in Resources */,
+				8A50161C169DD4F30034987E /* 32-iphone.png in Resources */,
+				8A50161D169DD4F30034987E /* 176-ipad@2x.png in Resources */,
+				8A50161E169DD4F30034987E /* 176-ipad.png in Resources */,
+				8A501629169DE46B0034987E /* 32-iphone-tab.png in Resources */,
+				8A50162A169DE46B0034987E /* 32-iphone-tab@2x.png in Resources */,
+				8A50162E169DE5D60034987E /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +269,10 @@
 				8AB9F6AC169DB56B009BEBA7 /* DBSAppDelegate.m in Sources */,
 				8AB9F6BB169DB5D0009BEBA7 /* Device.m in Sources */,
 				8A501604169DB9A80034987E /* DeviceController.m in Sources */,
+				8A501612169DCC690034987E /* DisplayTableViewController_iPhone.m in Sources */,
+				8A501615169DCDE60034987E /* DisplayCell.m in Sources */,
+				8A501623169DDA400034987E /* IconCell.m in Sources */,
+				8A501626169DDA720034987E /* IconViewController_iPhone.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

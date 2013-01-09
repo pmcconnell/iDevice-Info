@@ -13,6 +13,7 @@
 
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) NSString *info;
+@property (strong, nonatomic) NSString *imageName;
 
 @property (strong, nonatomic) NSString *portraitResolution;
 @property (strong, nonatomic) NSString *landscapeResolution;

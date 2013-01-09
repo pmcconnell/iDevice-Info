@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DeviceController.h"
 
 @interface DBSAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) DeviceController *deviceController;
 
 +(DBSAppDelegate *)sharedAppDelegate;
 
