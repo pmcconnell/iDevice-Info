@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13BC270216B1CCD800BE0C0C /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BC270016B1CCD800BE0C0C /* libTestFlight.a */; };
 		8A501604169DB9A80034987E /* DeviceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A501603169DB9A80034987E /* DeviceController.m */; };
 		8A50160D169DBC8E0034987E /* devices.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A50160C169DBC8E0034987E /* devices.plist */; };
 		8A50160F169DC6860034987E /* Storyboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A50160E169DC6860034987E /* Storyboard_iPhone.storyboard */; };
@@ -39,6 +40,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13BC270016B1CCD800BE0C0C /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		13BC270116B1CCD800BE0C0C /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		8A501602169DB9A80034987E /* DeviceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceController.h; sourceTree = "<group>"; };
 		8A501603169DB9A80034987E /* DeviceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceController.m; sourceTree = "<group>"; };
 		8A50160C169DBC8E0034987E /* devices.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = devices.plist; path = "iDevice Info/devices.plist"; sourceTree = "<group>"; };
@@ -91,6 +94,7 @@
 				8AB9F69C169DB56B009BEBA7 /* UIKit.framework in Frameworks */,
 				8AB9F69E169DB56B009BEBA7 /* Foundation.framework in Frameworks */,
 				8AB9F6A0169DB56B009BEBA7 /* CoreGraphics.framework in Frameworks */,
+				13BC270216B1CCD800BE0C0C /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +182,8 @@
 		8AB9F6A1169DB56B009BEBA7 /* iDevice Info */ = {
 			isa = PBXGroup;
 			children = (
+				13BC270016B1CCD800BE0C0C /* libTestFlight.a */,
+				13BC270116B1CCD800BE0C0C /* TestFlight.h */,
 				8AB9F6AA169DB56B009BEBA7 /* DBSAppDelegate.h */,
 				8AB9F6AB169DB56B009BEBA7 /* DBSAppDelegate.m */,
 				8AB9F6B9169DB5D0009BEBA7 /* Device.h */,
@@ -380,6 +386,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iDevice Info/iDevice Info-Prefix.pch";
 				INFOPLIST_FILE = "iDevice Info/iDevice Info-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/iDevice Info\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -391,6 +401,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iDevice Info/iDevice Info-Prefix.pch";
 				INFOPLIST_FILE = "iDevice Info/iDevice Info-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/iDevice Info\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
