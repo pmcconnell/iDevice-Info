@@ -267,16 +267,14 @@
                                     <constraint firstItem="ylE-wQ-VgV" firstAttribute="leading" secondItem="wRS-o9-jcn" secondAttribute="leading" type="default" id="8mG-TQ-nKi"/>
                                     <constraint firstItem="vnY-HQ-1IO" firstAttribute="baseline" secondItem="ylE-wQ-VgV" secondAttribute="baseline" type="default" id="Ach-fl-gE7"/>
                                     <constraint firstItem="7FN-Wh-xsg" firstAttribute="baseline" secondItem="7xf-S1-d0Q" secondAttribute="baseline" type="default" id="AzO-F2-GOZ"/>
-                                    <constraint firstItem="ylE-wQ-VgV" firstAttribute="leading" secondItem="vnY-HQ-1IO" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="CSr-4E-gYR"/>
+                                    <constraint firstItem="ylE-wQ-VgV" firstAttribute="leading" secondItem="vnY-HQ-1IO" secondAttribute="trailing" constant="8" symbolic="YES" type="user" id="CSr-4E-gYR"/>
                                     <constraint firstItem="mZL-oN-Lok" firstAttribute="top" secondItem="yfW-x3-4r2" secondAttribute="top" constant="95" type="user" id="DPP-hj-hhH"/>
                                     <constraint firstItem="k6J-F3-9rb" firstAttribute="top" secondItem="7xf-S1-d0Q" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="EHe-oc-9QF"/>
                                     <constraint firstItem="UfN-Hh-QxN" firstAttribute="leading" secondItem="QO9-Me-B7H" secondAttribute="trailing" constant="8" symbolic="YES" type="user" id="Itu-pq-ZZn"/>
-                                    <constraint firstAttribute="bottom" secondItem="3Xj-r8-aVa" secondAttribute="bottom" constant="24" id="LWM-lf-qh9"/>
                                     <constraint firstItem="lxO-id-dSt" firstAttribute="leading" secondItem="7FN-Wh-xsg" secondAttribute="leading" type="default" id="NqT-2M-Wlo"/>
                                     <constraint firstItem="mZL-oN-Lok" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="yfW-x3-4r2" secondAttribute="leading" constant="20" type="user" id="Nzq-qC-PcA"/>
-                                    <constraint firstItem="wRS-o9-jcn" firstAttribute="leading" secondItem="3Xj-r8-aVa" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="OB2-O1-A7t"/>
-                                    <constraint firstItem="ylE-wQ-VgV" firstAttribute="trailing" secondItem="wRS-o9-jcn" secondAttribute="trailing" type="default" id="Pek-6R-gUQ"/>
-                                    <constraint firstItem="wRS-o9-jcn" firstAttribute="top" secondItem="yfW-x3-4r2" secondAttribute="top" constant="131" id="Uxg-6D-MBe"/>
+                                    <constraint firstItem="wRS-o9-jcn" firstAttribute="leading" secondItem="3Xj-r8-aVa" secondAttribute="trailing" constant="8" symbolic="YES" type="user" id="OB2-O1-A7t"/>
+                                    <constraint firstAttribute="trailing" secondItem="ylE-wQ-VgV" secondAttribute="trailing" constant="20" type="user" id="SIq-8m-4WQ"/>
                                     <constraint firstItem="QO9-Me-B7H" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="yfW-x3-4r2" secondAttribute="leading" constant="20" type="user" id="Vor-hv-hV7"/>
                                     <constraint firstItem="njS-Wo-FOJ" firstAttribute="baseline" secondItem="k6J-F3-9rb" secondAttribute="baseline" type="user" id="YdL-kO-wP8"/>
                                     <constraint firstItem="lxO-id-dSt" firstAttribute="baseline" secondItem="vnY-HQ-1IO" secondAttribute="baseline" type="default" id="YpL-Fs-rt3"/>
@@ -289,13 +287,15 @@
                                     <constraint firstItem="7xf-S1-d0Q" firstAttribute="top" secondItem="mZL-oN-Lok" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="j5C-kL-b32"/>
                                     <constraint firstItem="QO9-Me-B7H" firstAttribute="leading" secondItem="yfW-x3-4r2" secondAttribute="leading" constant="20" type="default" id="mCd-yp-tz1"/>
                                     <constraint firstItem="mZL-oN-Lok" firstAttribute="top" secondItem="vnY-HQ-1IO" secondAttribute="top" type="user" id="mKU-eC-3ch"/>
+                                    <constraint firstAttribute="trailing" secondItem="wRS-o9-jcn" secondAttribute="trailing" constant="20" type="user" id="pmA-po-bKD"/>
                                     <constraint firstItem="osZ-pX-0f1" firstAttribute="trailing" secondItem="UfN-Hh-QxN" secondAttribute="trailing" type="default" id="qdh-Xt-UsK"/>
                                     <constraint firstItem="mZL-oN-Lok" firstAttribute="leading" secondItem="yfW-x3-4r2" secondAttribute="leading" constant="20" type="default" id="tEZ-2F-MGf"/>
                                     <constraint firstItem="7xf-S1-d0Q" firstAttribute="leading" secondItem="yfW-x3-4r2" secondAttribute="leading" constant="20" type="user" id="tZg-Ze-S40"/>
                                     <constraint firstItem="7FN-Wh-xsg" firstAttribute="leading" secondItem="7xf-S1-d0Q" secondAttribute="trailing" constant="8" symbolic="YES" type="user" id="uL8-qY-67c"/>
-                                    <constraint firstItem="vnY-HQ-1IO" firstAttribute="leading" secondItem="yfW-x3-4r2" secondAttribute="leading" constant="280" id="v0Y-3O-aoU"/>
+                                    <constraint firstItem="wRS-o9-jcn" firstAttribute="baseline" secondItem="3Xj-r8-aVa" secondAttribute="baseline" type="default" id="vB6-e8-xeV"/>
                                     <constraint firstItem="k6J-F3-9rb" firstAttribute="leading" secondItem="yfW-x3-4r2" secondAttribute="leading" constant="20" type="user" id="wv2-Qe-n7u"/>
                                     <constraint firstItem="QO9-Me-B7H" firstAttribute="top" relation="greaterThanOrEqual" secondItem="yfW-x3-4r2" secondAttribute="top" constant="21" type="user" id="yJa-fS-Ebi"/>
+                                    <constraint firstItem="3Xj-r8-aVa" firstAttribute="baseline" secondItem="7FN-Wh-xsg" secondAttribute="baseline" type="default" id="z4I-yo-4Ps"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="deviceImageView" destination="QO9-Me-B7H" id="FNH-rC-Pv7"/>
@@ -558,6 +558,85 @@
                                     <rect key="frame" x="0.0" y="0.0" width="480" height="240"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q1R-T8-bwI">
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="10px" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4IH-h4-uVl">
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="80" id="2Bt-zc-C7e"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="1024x1024" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jci-9p-Ahi">
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Pixels:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zn3-ko-FWX">
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="55" id="J6n-P7-vM6"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Radius:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aXb-CB-3ZC">
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="App Store Icon" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MUS-o1-wTH">
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="140" id="Cch-wV-SDg"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="17"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tab Bar Icon" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fy5-Dk-IEH">
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="110" id="jf2-F1-V2j"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="17"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Pixels:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sMU-0c-iks">
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="57x57" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6n8-aR-dk5">
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="jci-9p-Ahi" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="0Zv-TW-Gdy"/>
+                                                <constraint firstItem="Zn3-ko-FWX" firstAttribute="trailing" secondItem="sMU-0c-iks" secondAttribute="trailing" type="default" id="5Ug-gW-s3e"/>
+                                                <constraint firstItem="sMU-0c-iks" firstAttribute="leading" secondItem="Q1R-T8-bwI" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="9yi-Si-bQ1"/>
+                                                <constraint firstItem="fy5-Dk-IEH" firstAttribute="top" secondItem="aXb-CB-3ZC" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="AiC-bo-62z"/>
+                                                <constraint firstItem="4IH-h4-uVl" firstAttribute="baseline" secondItem="aXb-CB-3ZC" secondAttribute="baseline" type="default" id="BRc-e4-aNw"/>
+                                                <constraint firstItem="MUS-o1-wTH" firstAttribute="leading" secondItem="Q1R-T8-bwI" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="BrE-iV-suX"/>
+                                                <constraint firstItem="sMU-0c-iks" firstAttribute="top" secondItem="fy5-Dk-IEH" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Drm-p3-S1n"/>
+                                                <constraint firstItem="4IH-h4-uVl" firstAttribute="leading" secondItem="aXb-CB-3ZC" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="J2g-zW-hdR"/>
+                                                <constraint firstItem="aXb-CB-3ZC" firstAttribute="top" secondItem="Zn3-ko-FWX" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="JvO-NA-IOU"/>
+                                                <constraint firstItem="Zn3-ko-FWX" firstAttribute="top" secondItem="MUS-o1-wTH" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="LQI-fI-pkR"/>
+                                                <constraint firstItem="fy5-Dk-IEH" firstAttribute="leading" secondItem="Q1R-T8-bwI" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Wcj-pR-x8F"/>
+                                                <constraint firstItem="4IH-h4-uVl" firstAttribute="leading" secondItem="6n8-aR-dk5" secondAttribute="leading" type="default" id="YC9-K9-jZb"/>
+                                                <constraint firstItem="MUS-o1-wTH" firstAttribute="top" secondItem="Q1R-T8-bwI" secondAttribute="top" constant="20" symbolic="YES" type="default" id="Ypr-CC-qS7"/>
+                                                <constraint firstItem="Zn3-ko-FWX" firstAttribute="leading" secondItem="Q1R-T8-bwI" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Zre-J9-0qn"/>
+                                                <constraint firstAttribute="trailing" secondItem="6n8-aR-dk5" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="ebU-YF-Bh1"/>
+                                                <constraint firstAttribute="bottom" secondItem="sMU-0c-iks" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="een-En-CEb"/>
+                                                <constraint firstItem="jci-9p-Ahi" firstAttribute="leading" secondItem="4IH-h4-uVl" secondAttribute="leading" type="default" id="kOT-O1-Ct2"/>
+                                                <constraint firstAttribute="bottom" secondItem="6n8-aR-dk5" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="mrP-Xs-Mat"/>
+                                                <constraint firstItem="jci-9p-Ahi" firstAttribute="top" secondItem="Q1R-T8-bwI" secondAttribute="top" constant="52" id="tjo-hw-aC3"/>
+                                                <constraint firstItem="aXb-CB-3ZC" firstAttribute="leading" secondItem="Q1R-T8-bwI" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="wIe-zX-JZ9"/>
+                                            </constraints>
+                                        </view>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="iQI-Jz-CGU">
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="50" type="user" id="GRn-l9-X8P"/>
@@ -597,14 +676,6 @@
                                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Radius:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aXb-CB-3ZC">
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="60" id="hpo-lU-AK2"/>
-                                            </constraints>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
-                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </label>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="57x57" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="atj-d0-X9r">
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="84" id="CYr-qg-jBR"/>
@@ -621,39 +692,15 @@
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="App Store Icon" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MUS-o1-wTH">
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="140" id="Cch-wV-SDg"/>
-                                            </constraints>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="17"/>
-                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="1024x1024" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jci-9p-Ahi">
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="10px" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4IH-h4-uVl">
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="80" id="2Bt-zc-C7e"/>
-                                            </constraints>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </label>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Spotlight Icon" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q5N-kP-dup">
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="140" id="RKj-Ww-lfh"/>
+                                                <constraint firstAttribute="width" constant="110" id="vWY-dz-KhK"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="17"/>
                                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="57x57" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SsU-AH-wRT">
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="84" id="X1n-qj-su1"/>
-                                            </constraints>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="100x100" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SsU-AH-wRT">
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -671,23 +718,7 @@
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tab Bar Icon" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fy5-Dk-IEH">
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="110" id="jf2-F1-V2j"/>
-                                            </constraints>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="17"/>
-                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="57x57" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6n8-aR-dk5">
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </label>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="10px" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DKE-wo-v4I">
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="60" id="a9v-5O-Fhc"/>
-                                            </constraints>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -695,14 +726,6 @@
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Pixels:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FZL-LC-09S">
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="55" id="zac-HR-0Fm"/>
-                                            </constraints>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
-                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Pixels:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zn3-ko-FWX">
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="55" id="J6n-P7-vM6"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -718,7 +741,7 @@
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Pixels:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="syo-4L-gKh">
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="55" id="ZTy-qG-Oew"/>
+                                                <constraint firstAttribute="width" constant="50" id="CHT-mi-Eci"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -729,67 +752,48 @@
                                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Pixels:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sMU-0c-iks">
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
-                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </label>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <constraints>
+                                    <constraint firstItem="Q1R-T8-bwI" firstAttribute="centerY" secondItem="1fu-EU-daO" secondAttribute="centerY" type="default" id="351-pg-OMY"/>
                                     <constraint firstItem="kS5-ZI-Va6" firstAttribute="leading" secondItem="msF-s6-4DK" secondAttribute="leading" constant="90" id="3rk-MJ-gNn"/>
-                                    <constraint firstItem="MUS-o1-wTH" firstAttribute="leading" secondItem="Zn3-ko-FWX" secondAttribute="leading" type="default" id="5CA-US-6Xw"/>
-                                    <constraint firstItem="jci-9p-Ahi" firstAttribute="leading" secondItem="4IH-h4-uVl" secondAttribute="leading" type="default" id="5M7-Q8-e0C"/>
                                     <constraint firstItem="bgR-ik-9pP" firstAttribute="trailing" secondItem="jyX-sc-MGz" secondAttribute="trailing" type="default" id="5h8-mf-mkN"/>
-                                    <constraint firstItem="syo-4L-gKh" firstAttribute="top" secondItem="q5N-kP-dup" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="5xF-hL-DHC"/>
                                     <constraint firstItem="yqC-Gt-PKW" firstAttribute="leading" secondItem="msF-s6-4DK" secondAttribute="leading" constant="20" type="default" id="6Xl-pj-7B5"/>
+                                    <constraint firstItem="Ly3-lP-dhF" firstAttribute="leading" secondItem="syo-4L-gKh" secondAttribute="leading" type="user" id="6hN-bl-HSB"/>
+                                    <constraint firstItem="Q1R-T8-bwI" firstAttribute="leading" secondItem="msF-s6-4DK" secondAttribute="leading" constant="144" id="7tn-Gx-9fx"/>
                                     <constraint firstItem="bgR-ik-9pP" firstAttribute="leading" secondItem="msF-s6-4DK" secondAttribute="leading" constant="20" type="default" id="84U-yq-9a9"/>
-                                    <constraint firstItem="sMU-0c-iks" firstAttribute="trailing" secondItem="Zn3-ko-FWX" secondAttribute="trailing" type="default" id="9o6-Rf-Kqt"/>
-                                    <constraint firstItem="MUS-o1-wTH" firstAttribute="baseline" secondItem="jyX-sc-MGz" secondAttribute="baseline" type="default" id="DUs-Wm-euz"/>
-                                    <constraint firstItem="SsU-AH-wRT" firstAttribute="leading" secondItem="DKE-wo-v4I" secondAttribute="leading" type="default" id="EOA-zN-WK0"/>
+                                    <constraint firstItem="DKE-wo-v4I" firstAttribute="baseline" secondItem="Ly3-lP-dhF" secondAttribute="baseline" type="default" id="9mC-AJ-QfY"/>
                                     <constraint firstItem="caW-ba-tCV" firstAttribute="baseline" secondItem="kS5-ZI-Va6" secondAttribute="baseline" type="default" id="Eh8-mV-zG7"/>
-                                    <constraint firstItem="Zn3-ko-FWX" firstAttribute="baseline" secondItem="atj-d0-X9r" secondAttribute="baseline" type="default" id="Gj3-3r-HY2"/>
+                                    <constraint firstAttribute="trailing" secondItem="DKE-wo-v4I" secondAttribute="trailing" constant="20" type="user" id="FhT-QS-IeN"/>
                                     <constraint firstItem="Mcr-tE-Q3r" firstAttribute="top" secondItem="u21-tI-yFp" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="HRb-yy-eLc"/>
-                                    <constraint firstItem="fy5-Dk-IEH" firstAttribute="leading" secondItem="aXb-CB-3ZC" secondAttribute="leading" type="default" id="I2R-pR-CL3"/>
-                                    <constraint firstItem="fy5-Dk-IEH" firstAttribute="leading" secondItem="sMU-0c-iks" secondAttribute="leading" type="default" id="J0I-Oi-Lrq"/>
-                                    <constraint firstItem="sMU-0c-iks" firstAttribute="baseline" secondItem="6n8-aR-dk5" secondAttribute="baseline" type="default" id="K9g-AF-qbZ"/>
-                                    <constraint firstItem="DKE-wo-v4I" firstAttribute="baseline" secondItem="Ly3-lP-dhF" secondAttribute="baseline" type="default" id="KRe-14-aAB"/>
-                                    <constraint firstItem="fy5-Dk-IEH" firstAttribute="baseline" secondItem="bgR-ik-9pP" secondAttribute="baseline" type="default" id="KUa-Gk-oGH"/>
+                                    <constraint firstItem="SsU-AH-wRT" firstAttribute="top" secondItem="q5N-kP-dup" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="HiP-A6-Kjh"/>
+                                    <constraint firstItem="q5N-kP-dup" firstAttribute="leading" secondItem="syo-4L-gKh" secondAttribute="leading" type="default" id="IYz-GG-kQ9"/>
+                                    <constraint firstItem="SsU-AH-wRT" firstAttribute="centerY" secondItem="msF-s6-4DK" secondAttribute="centerY" type="default" id="J2Q-zV-Ppf"/>
                                     <constraint firstItem="1fu-EU-daO" firstAttribute="baseline" secondItem="yqC-Gt-PKW" secondAttribute="baseline" type="default" id="Kxh-hn-PKa"/>
                                     <constraint firstItem="jyX-sc-MGz" firstAttribute="top" secondItem="Mcr-tE-Q3r" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="KyM-uW-D23"/>
-                                    <constraint firstItem="syo-4L-gKh" firstAttribute="leading" secondItem="Ly3-lP-dhF" secondAttribute="leading" type="default" id="Mhs-yP-9f5"/>
                                     <constraint firstItem="jyX-sc-MGz" firstAttribute="top" secondItem="iQI-Jz-CGU" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="OfD-zj-8NT"/>
-                                    <constraint firstItem="4IH-h4-uVl" firstAttribute="baseline" secondItem="aXb-CB-3ZC" secondAttribute="baseline" type="default" id="PgC-tK-1YB"/>
-                                    <constraint firstItem="SsU-AH-wRT" firstAttribute="top" secondItem="msF-s6-4DK" secondAttribute="top" constant="110" id="PpZ-Ff-rPw"/>
-                                    <constraint firstItem="aXb-CB-3ZC" firstAttribute="leading" secondItem="Zn3-ko-FWX" secondAttribute="leading" type="default" id="QbK-pd-NF3"/>
                                     <constraint firstItem="1fu-EU-daO" firstAttribute="leading" secondItem="yqC-Gt-PKW" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="RNC-8R-0Eg"/>
                                     <constraint firstItem="caW-ba-tCV" firstAttribute="top" secondItem="bgR-ik-9pP" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="RNM-Y4-Zjg"/>
                                     <constraint firstItem="u21-tI-yFp" firstAttribute="leading" secondItem="iQI-Jz-CGU" secondAttribute="trailing" constant="8" symbolic="YES" type="user" id="Saz-eM-sYw"/>
-                                    <constraint firstItem="q5N-kP-dup" firstAttribute="leading" secondItem="msF-s6-4DK" secondAttribute="leading" constant="356" id="UT9-1B-p4H"/>
-                                    <constraint firstItem="SsU-AH-wRT" firstAttribute="baseline" secondItem="syo-4L-gKh" secondAttribute="baseline" type="default" id="VPw-iu-hoQ"/>
+                                    <constraint firstItem="syo-4L-gKh" firstAttribute="baseline" secondItem="atj-d0-X9r" secondAttribute="baseline" type="default" id="VGH-ds-oOj"/>
                                     <constraint firstItem="1fu-EU-daO" firstAttribute="leading" secondItem="atj-d0-X9r" secondAttribute="leading" type="default" id="VeL-De-caT"/>
-                                    <constraint firstItem="syo-4L-gKh" firstAttribute="baseline" secondItem="jci-9p-Ahi" secondAttribute="baseline" type="default" id="aeA-Y1-7xJ"/>
+                                    <constraint firstItem="DKE-wo-v4I" firstAttribute="leading" secondItem="SsU-AH-wRT" secondAttribute="leading" type="default" id="ZiG-dE-Atp"/>
                                     <constraint firstItem="caW-ba-tCV" firstAttribute="leading" secondItem="msF-s6-4DK" secondAttribute="leading" constant="20" type="default" id="bHo-C2-KwN"/>
                                     <constraint firstItem="bgR-ik-9pP" firstAttribute="top" secondItem="yqC-Gt-PKW" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="bMM-LO-t8z"/>
-                                    <constraint firstItem="DKE-wo-v4I" firstAttribute="leading" secondItem="Ly3-lP-dhF" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="baT-2N-cgL"/>
+                                    <constraint firstItem="SsU-AH-wRT" firstAttribute="leading" secondItem="syo-4L-gKh" secondAttribute="trailing" constant="8" symbolic="YES" type="user" id="bcK-qF-X7r"/>
+                                    <constraint firstItem="Ly3-lP-dhF" firstAttribute="baseline" secondItem="1fu-EU-daO" secondAttribute="baseline" type="default" id="bdp-mw-71Y"/>
                                     <constraint firstItem="caW-ba-tCV" firstAttribute="trailing" secondItem="FZL-LC-09S" secondAttribute="trailing" type="default" id="fIm-Xw-Ih6"/>
-                                    <constraint firstItem="4IH-h4-uVl" firstAttribute="leading" secondItem="aXb-CB-3ZC" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="hRJ-sL-8FO"/>
                                     <constraint firstItem="iQI-Jz-CGU" firstAttribute="top" secondItem="msF-s6-4DK" secondAttribute="top" constant="20" type="user" id="i1y-de-7w8"/>
                                     <constraint firstItem="yqC-Gt-PKW" firstAttribute="top" secondItem="FZL-LC-09S" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="jKQ-1I-uJf"/>
                                     <constraint firstItem="atj-d0-X9r" firstAttribute="baseline" secondItem="FZL-LC-09S" secondAttribute="baseline" type="default" id="jTq-nF-aEy"/>
                                     <constraint firstItem="FZL-LC-09S" firstAttribute="top" secondItem="jyX-sc-MGz" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="kA7-aq-zTE"/>
-                                    <constraint firstItem="6n8-aR-dk5" firstAttribute="trailing" secondItem="jci-9p-Ahi" secondAttribute="trailing" type="default" id="m8e-EB-Kr9"/>
                                     <constraint firstItem="Mcr-tE-Q3r" firstAttribute="leading" secondItem="iQI-Jz-CGU" secondAttribute="trailing" constant="8" symbolic="YES" type="user" id="nh3-gk-kDy"/>
-                                    <constraint firstItem="q5N-kP-dup" firstAttribute="leading" secondItem="syo-4L-gKh" secondAttribute="leading" type="default" id="nm8-kF-Kcd"/>
                                     <constraint firstItem="iQI-Jz-CGU" firstAttribute="leading" secondItem="msF-s6-4DK" secondAttribute="leading" constant="20" type="user" id="ocp-58-ApG"/>
                                     <constraint firstItem="jyX-sc-MGz" firstAttribute="leading" secondItem="msF-s6-4DK" secondAttribute="leading" constant="20" type="default" id="pKu-15-OJ0"/>
                                     <constraint firstItem="FZL-LC-09S" firstAttribute="leading" secondItem="msF-s6-4DK" secondAttribute="leading" constant="20" type="default" id="s3G-sD-Rla"/>
-                                    <constraint firstItem="sMU-0c-iks" firstAttribute="baseline" secondItem="kS5-ZI-Va6" secondAttribute="baseline" type="default" id="sLC-35-Oln"/>
-                                    <constraint firstItem="Zn3-ko-FWX" firstAttribute="leading" secondItem="atj-d0-X9r" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="tbb-0Z-8ds"/>
-                                    <constraint firstItem="6n8-aR-dk5" firstAttribute="leading" secondItem="4IH-h4-uVl" secondAttribute="leading" type="default" id="ual-Nn-RYi"/>
-                                    <constraint firstItem="Ly3-lP-dhF" firstAttribute="top" secondItem="syo-4L-gKh" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="vyH-Ng-Ske"/>
-                                    <constraint firstItem="aXb-CB-3ZC" firstAttribute="baseline" secondItem="1fu-EU-daO" secondAttribute="baseline" type="default" id="xUf-NZ-62S"/>
+                                    <constraint firstAttribute="trailing" secondItem="SsU-AH-wRT" secondAttribute="trailing" constant="20" type="user" id="sjH-Uy-JxS"/>
+                                    <constraint firstAttribute="centerX" secondItem="Q1R-T8-bwI" secondAttribute="centerX" type="user" id="uV7-dQ-o56"/>
                                     <constraint firstItem="Mcr-tE-Q3r" firstAttribute="trailing" secondItem="u21-tI-yFp" secondAttribute="trailing" type="default" id="yaZ-9p-OnJ"/>
                                 </constraints>
                                 <connections>
@@ -1262,6 +1266,9 @@
         <image name="Icon.png" width="30" height="30"/>
     </resources>
     <classes>
+        <class className="DBSDeviceTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DBSDeviceTableViewController.h"/>
+        </class>
         <class className="DBSNavigationController" superclassName="UINavigationController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DBSNavigationController.h"/>
         </class>
@@ -1281,7 +1288,7 @@
                 <relationship kind="outlet" name="tempLabel" candidateClass="UILabel"/>
             </relationships>
         </class>
-        <class className="DisplayTableViewController_iPhone" superclassName="UITableViewController">
+        <class className="DisplayTableViewController_iPhone" superclassName="DBSDeviceTableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DisplayTableViewController_iPhone.h"/>
         </class>
         <class className="ElementCell" superclassName="UITableViewCell">
@@ -1297,7 +1304,7 @@
                 <relationship kind="outlet" name="titleBarHeightLabel" candidateClass="UILabel"/>
             </relationships>
         </class>
-        <class className="ElementViewController_iPhone" superclassName="UITableViewController">
+        <class className="ElementViewController_iPhone" superclassName="DBSDeviceTableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ElementViewController_iPhone.h"/>
         </class>
         <class className="IconCell" superclassName="UITableViewCell">
@@ -1316,7 +1323,7 @@
                 <relationship kind="outlet" name="tabBarIconPixelsLabel" candidateClass="UILabel"/>
             </relationships>
         </class>
-        <class className="IconViewController_iPhone" superclassName="UITableViewController">
+        <class className="IconViewController_iPhone" superclassName="DBSDeviceTableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/IconViewController_iPhone.h"/>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
