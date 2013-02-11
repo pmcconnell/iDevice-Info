@@ -26,6 +26,11 @@
   _deviceController = [[DBSAppDelegate sharedAppDelegate]deviceController];
 }
 
+-(void)viewWillAppear:(BOOL)animated
+{
+    [self reloadSections];
+}
+
 - (void)didReceiveMemoryWarning
 {
   [super didReceiveMemoryWarning];
@@ -37,7 +42,7 @@
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
   if (UIDeviceOrientationIsLandscape([[UIDevice currentDevice]orientation])) {
-    return 146.0;
+    return 180.0;
   } else {
     return 241.0;
   }
@@ -60,8 +65,10 @@
   static NSString *cellIdentifier = nil;
   
   if (UIDeviceOrientationIsLandscape([[UIDevice currentDevice]orientation])) {
+      NSLog(@"Landscape");
     cellIdentifier = @"displayCellLandscape";
   } else {
+      NSLog(@"Portrait");      
     cellIdentifier = @"displayCell";
   }
   
@@ -137,9 +144,26 @@
    */
 }
 
--(void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation
+- (void)reloadSections
 {
+    NSLog(@"Reload Sections");
   [self.tableView reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationAutomatic];
 }
 
+-(void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
+{
+    [self reloadSections];
+}
+//
+//-(void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation
+//{
+//    [self reloadSections];
+//}
+
+
+-(NSUInteger)supportedInterfaceOrientations
+{
+    NSLog(@"What orientation?");
+    return UIInterfaceOrientationMaskAll;
+}
 @end

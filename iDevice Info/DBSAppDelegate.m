@@ -44,6 +44,45 @@ static DBSAppDelegate *sharedInstance;
   return YES;
 }
 
+- (NSUInteger)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window{
+    
+    NSUInteger orientations = UIInterfaceOrientationMaskPortrait;
+    
+    if(self.window.rootViewController){
+        UIViewController *presentedViewController ;
+        if ([self.window.rootViewController isKindOfClass:([UINavigationController class])])
+        {
+            presentedViewController = [[(UINavigationController *)self.window.rootViewController viewControllers] lastObject];
+        }
+        else if ([self.window.rootViewController isKindOfClass:[UITabBarController class]]){
+            UITabBarController *controller = (UITabBarController*)self.window.rootViewController;
+            
+            id selectedController =  [controller presentedViewController];
+            
+            if (!selectedController) {
+                selectedController = [controller selectedViewController];
+            }
+            
+            if ([selectedController isKindOfClass:([UINavigationController class])])
+            {
+                presentedViewController = [[(UINavigationController *)selectedController viewControllers] lastObject];
+            }
+            else{
+                presentedViewController = selectedController;
+            }
+        }
+        else
+        {
+            presentedViewController = self.window.rootViewController;
+        }
+        
+        if ([presentedViewController respondsToSelector:@selector(supportedInterfaceOrientations)]) {
+            orientations = [presentedViewController supportedInterfaceOrientations];
+        }
+    }
+    
+    return orientations;
+}
 
 
 - (void)applicationWillResignActive:(UIApplication *)application
