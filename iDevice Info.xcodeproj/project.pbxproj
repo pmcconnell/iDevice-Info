@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		13A71C4E16C9706700C56ED8 /* DBSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A71C4D16C9706700C56ED8 /* DBSNavigationController.m */; };
 		13A71C5116C97A5F00C56ED8 /* DBSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A71C5016C97A5F00C56ED8 /* DBSTabBarController.m */; };
+		13A71C5416C97E5F00C56ED8 /* DBSDeviceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A71C5316C97E5F00C56ED8 /* DBSDeviceTableViewController.m */; };
 		13BC270216B1CCD800BE0C0C /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BC270016B1CCD800BE0C0C /* libTestFlight.a */; };
 		8A501604169DB9A80034987E /* DeviceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A501603169DB9A80034987E /* DeviceController.m */; };
 		8A50160D169DBC8E0034987E /* devices.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A50160C169DBC8E0034987E /* devices.plist */; };
@@ -46,6 +47,8 @@
 		13A71C4D16C9706700C56ED8 /* DBSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBSNavigationController.m; sourceTree = "<group>"; };
 		13A71C4F16C97A5F00C56ED8 /* DBSTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBSTabBarController.h; sourceTree = "<group>"; };
 		13A71C5016C97A5F00C56ED8 /* DBSTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBSTabBarController.m; sourceTree = "<group>"; };
+		13A71C5216C97E5F00C56ED8 /* DBSDeviceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBSDeviceTableViewController.h; sourceTree = "<group>"; };
+		13A71C5316C97E5F00C56ED8 /* DBSDeviceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBSDeviceTableViewController.m; sourceTree = "<group>"; };
 		13BC270016B1CCD800BE0C0C /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
 		13BC270116B1CCD800BE0C0C /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		8A501602169DB9A80034987E /* DeviceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceController.h; sourceTree = "<group>"; };
@@ -200,6 +203,8 @@
 				13A71C4D16C9706700C56ED8 /* DBSNavigationController.m */,
 				13A71C4F16C97A5F00C56ED8 /* DBSTabBarController.h */,
 				13A71C5016C97A5F00C56ED8 /* DBSTabBarController.m */,
+				13A71C5216C97E5F00C56ED8 /* DBSDeviceTableViewController.h */,
+				13A71C5316C97E5F00C56ED8 /* DBSDeviceTableViewController.m */,
 				8A501616169DCDF20034987E /* Display */,
 				8A501620169DDA290034987E /* Icons */,
 				8A50162F169DFD370034987E /* Elements */,
@@ -323,6 +328,7 @@
 				8A501635169DFD700034987E /* ElementCell.m in Sources */,
 				13A71C4E16C9706700C56ED8 /* DBSNavigationController.m in Sources */,
 				13A71C5116C97A5F00C56ED8 /* DBSTabBarController.m in Sources */,
+				13A71C5416C97E5F00C56ED8 /* DBSDeviceTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

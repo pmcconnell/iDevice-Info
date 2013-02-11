@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DBSDeviceTableViewController.h"
 
-@interface DisplayTableViewController_iPhone : UITableViewController
+@interface DisplayTableViewController_iPhone : DBSDeviceTableViewController
 
 @end
