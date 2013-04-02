@@ -61,12 +61,6 @@
 {
     [self reloadSections];
 }
-//
-//-(void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation
-//{
-//    [self reloadSections];
-//}
-
 
 -(NSUInteger)supportedInterfaceOrientations
 {
