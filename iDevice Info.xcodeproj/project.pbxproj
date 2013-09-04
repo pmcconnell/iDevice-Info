@@ -59,8 +59,8 @@
 		13E4436217D78342005303FE /* DBSDeviceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBSDeviceDetailViewController.m; sourceTree = "<group>"; };
 		13E4436417D78353005303FE /* DBSDeviceMasterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBSDeviceMasterTableViewController.h; sourceTree = "<group>"; };
 		13E4436517D78353005303FE /* DBSDeviceMasterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBSDeviceMasterTableViewController.m; sourceTree = "<group>"; };
-		13E4436717D7997B005303FE /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
-		13E4436A17D799CD005303FE /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		13E4436717D7997B005303FE /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../../../Desktop/Icons/Icon@2x.png"; sourceTree = "<group>"; };
+		13E4436A17D799CD005303FE /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../../Desktop/Icons/Icon.png; sourceTree = "<group>"; };
 		8A501602169DB9A80034987E /* DeviceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceController.h; sourceTree = "<group>"; };
 		8A501603169DB9A80034987E /* DeviceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceController.m; sourceTree = "<group>"; };
 		8A50160C169DBC8E0034987E /* devices.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = devices.plist; path = "iDevice Info/devices.plist"; sourceTree = "<group>"; };
