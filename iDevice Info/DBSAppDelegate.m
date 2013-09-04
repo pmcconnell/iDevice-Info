@@ -36,6 +36,13 @@ static DBSAppDelegate *sharedInstance;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
   _deviceController = [[DeviceController alloc]init];
+
+  if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
+    UISplitViewController *splitVC = (UISplitViewController *)self.window.rootViewController;
+    UINavigationController *navCon = splitVC.viewControllers[1];
+    splitVC.delegate = navCon.viewControllers[0];
+  }
+
   
 //  self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 //  // Override point for customization after application launch.
